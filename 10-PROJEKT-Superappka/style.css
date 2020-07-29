@@ -67,5 +67,5 @@ ul {
 
 .banner {
   min-height: 450px;
-  background: image();
+  background: url("images/pozadi.jpg");
 }
