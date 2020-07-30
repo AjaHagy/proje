@@ -45,16 +45,21 @@ body {
   display: flex;
   justify-content: flex-start;
   flex-grow: 1;
+  text-decoration: none;
 }
+
 ul {
   list-style-type: none;
   text-decoration: none;
+}
+ul li {
+  margin: 10px;
 }
 .tlacitko {
   border-style: solid;
   border-radius: 5px;
   text-decoration: none;
-  background-color: #25133d;
+  background-color: #48418e;
   color: white;
   font-size: 20px;
   font-weight: 300;
@@ -63,9 +68,31 @@ ul {
 .titulek {
   font-size: 90px;
   font-weight: 400;
+  color: white;
 }
 
 .banner {
   min-height: 450px;
   background: url("images/pozadi.jpg");
+}
+.podtitulek {
+  color: white;
+}
+
+.vlastnosti {
+  display: flex;
+  text-align: center;
+}
+.ikona {
+  width: 80px;
+  font-size: 20px;
+  font-weight: 700px;
+}
+h2 {
+  color: #48418e;
+}
+.paticka {
+  background-color: #48418e;
+  color: white;
+  text-align: center;
 }
